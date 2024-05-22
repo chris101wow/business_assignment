@@ -1,0 +1,29 @@
+.buy_box{
+    border: 3px solid rgb(43, 43, 43);
+    border-radius: 80px;
+    margin-top: 7%;
+    margin-left: 25%;
+    width: 50%;
+  }
+  .buy_box_grid{
+    padding: 40px;
+    display: flex;
+    grid-template-rows:auto;
+  }
+  .buy_box_grid > div{
+    margin: 10px;
+  
+  }
+  .buy_butt{
+    background-color: rebeccapurple;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    position: relative;
+    top: 50%;
+  }
+  .box_img{
+    border-radius: 60px ;
+  }

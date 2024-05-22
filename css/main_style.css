@@ -2,26 +2,11 @@ html {
   margin: 20px;
 }
 
+@import url('https://fonts.cdnfonts.com/css/ostrich-sans-2');
 body {
   background-color: white;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: x-large;
-}
-
-h1 {
-  color: gray;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 1.75em;
-}
-
-#lazy_squirrel {
-  width: 30%;
-  border: 5px solid darkred;
-  border-radius: 10px;
-}
-@font-face {
-  font-family: myFirstFont;
-  src: url(ostrich-sans-master\webfonts\ostrich-sans-inline-italic.woff);
 }
 
 .logo{
@@ -35,45 +20,20 @@ h1 {
 }
 .task_bar > div > a{
   text-decoration: none;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
   color: #FDD700;
   padding: 10px;
   width: auto;
   position: relative;
-  top: 30%;
+  top: 10%;
+  font-family: "Ostrich Sans Inline" ;
+  font-size: 40px;
+  font-weight:lighter ; 
 }
 .task_bar > div:hover{
   background-color: white;
 }
-.buy_box{
-  border: 3px solid rgb(43, 43, 43);
-  border-radius: 80px;
-  margin-top: 7%;
-  margin-left: 25%;
-  width: 50%;
-}
-.buy_box_grid{
-  padding: 40px;
-  display: flex;
-  grid-template-rows:auto;
-}
-.buy_box_grid > div{
-  margin: 10px;
 
-}
-.buy_butt{
-  background-color: rebeccapurple;
-  color: white;
-  border-radius: 30px;
-  border: none;
-  font-size: 20px;
-  padding: 10px;
-  position: relative;
-  top: 50%;
-}
-.box_img{
-  border-radius: 60px ;
-}
 
 
 
